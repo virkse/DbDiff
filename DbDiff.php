@@ -6,16 +6,16 @@ class DbDiff {
     private $config = [
         ## dev server
         "dev" => [
-            'host'		=> 'xrmdev.cu0opweblawk.us-east-2.rds.amazonaws.com',
-			'user'		=> 'xrmdev',
-			'password'	=> 'I4HTjIWhCD24qmkUEpha',
-			'name'		=> 'omniweb_dev'
+            'host'		=> 'localhost', ## change this your dev server
+			'user'		=> 'root',
+			'password'	=> '',
+			'name'		=> 'database_dev'
         ],
         "prod" => [
-            'host'		=> 'xrmprod.cu0opweblawk.us-east-2.rds.amazonaws.com',
-	 		'user'		=> 'xrmprod',
-	 		'password'	=> 'XTpiY5Qe0OuCAbWUDg27',
-	 		'name'		=> 'omniweb_prod'
+            'host'		=> 'localhost', ## change this to your prod server host
+	 		'user'		=> 'root',
+	 		'password'	=> '',
+	 		'name'		=> 'database_prod'
         ]
     ];
 
